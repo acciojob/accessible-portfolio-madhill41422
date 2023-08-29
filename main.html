@@ -1,25 +1,37 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
+	
 <body>
-	<nav>
-		<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2F1.bp.blogspot.com%2F-Yzgas88pv20%2FX6go2OSsswI%2FAAAAAAABhEU%2FDK9ITeQO0OIfngmgHlLbd71pj0YkiZ5DgCPcBGAsYHg%2Fs1920%2FPolish_20201107_204440986.jpg&tbnid=0-aBu8XTmS4PoM&vet=10CAIQxiAoAGoXChMI-JO-_rSCgQMVAAAAAB0AAAAAEB4..i&imgrefurl=https%3A%2F%2Fwww.sweetspicytasty.com%2F2020%2F11%2Fmedhu-vada-platter-south-indian-delicacy.html&docid=-HakkwitDABZSM&w=1920&h=1920&itg=1&q=vada%20type%20foods&ved=0CAIQxiAoAGoXChMI-JO-_rSCgQMVAAAAAB0AAAAAEB4" alt="pandas">
-		<!-- the entire body must be written by student -->
-	    <h1>NAME</h1>
-	    <ul>
-			<li>madhu</li>
-			<li>sudhan</li>
-			<li>reddy</li>
-		</ul>
-	</nav>
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <header role="navigation">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 role="heading">My Accessible Portfolio</h1>
+    <section>
+      <img src="profile.jpg" alt="My Profile Picture" role="img">
+      <p>A brief description of my portfolio.</p>
+    </section>
+    <section>
+      <h2>My Projects</h2>
+      <ul role="list">
+        <li role="listitem">Project 1: Project Name</li>
+        <li role="listitem">Project 2: Project Name</li>
+        <li role="listitem">Project 3: Project Name</li>
+      </ul>
+    </section>
+  </main>
 </body>
-
 </html>
